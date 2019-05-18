@@ -360,7 +360,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: the digital cie (99J6CKC79H)";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 99J6CKC79H;
 				INFOPLIST_FILE = TesTravis/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -369,6 +370,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobilepowered.fr.TesTravis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = TestTravisApp;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -378,7 +380,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: the digital cie (99J6CKC79H)";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 99J6CKC79H;
 				INFOPLIST_FILE = TesTravis/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -387,6 +390,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobilepowered.fr.TesTravis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = TestTravisApp;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
