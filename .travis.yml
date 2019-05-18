@@ -15,7 +15,7 @@ env:
   - |
       - APP_NAME="TesTravis"
       - 'DEVELOPER_NAME="iPhone Distribution: the digital cie (99J6CKC97H)"'
-      - PROFILE_NAME="Distribution"
+      - PROFILE_NAME="TestTravisApp"
       - IPA_NAME="TesTravis"
       - ARCHIVE_NAME="TesTravis_Dev"
   - secure: {azzdddfdsgnjkfgfjdkghfdgjk"'é'"éj('dfsdf('('"(,ngfgdfg}
