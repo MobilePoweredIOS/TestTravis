@@ -12,7 +12,18 @@
 		A9CFAFC222903D62001AF854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9CFAFC022903D62001AF854 /* Main.storyboard */; };
 		A9CFAFC422903D63001AF854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9CFAFC322903D63001AF854 /* Assets.xcassets */; };
 		A9CFAFC722903D63001AF854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9CFAFC522903D63001AF854 /* LaunchScreen.storyboard */; };
+		A9CFAFD5229046D1001AF854 /* TesTravisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CFAFD4229046D1001AF854 /* TesTravisTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9CFAFD7229046D1001AF854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9CFAFB122903D62001AF854 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9CFAFB822903D62001AF854;
+			remoteInfo = TesTravis;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A9CFAFB922903D62001AF854 /* TesTravis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesTravis.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +33,20 @@
 		A9CFAFC322903D63001AF854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9CFAFC622903D63001AF854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9CFAFC822903D63001AF854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9CFAFD2229046D1001AF854 /* TesTravisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TesTravisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CFAFD4229046D1001AF854 /* TesTravisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesTravisTests.swift; sourceTree = "<group>"; };
+		A9CFAFD6229046D1001AF854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A9CFAFB622903D62001AF854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CFAFCF229046D1001AF854 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				A9CFAFBB22903D62001AF854 /* TesTravis */,
+				A9CFAFD3229046D1001AF854 /* TesTravisTests */,
 				A9CFAFBA22903D62001AF854 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				A9CFAFB922903D62001AF854 /* TesTravis.app */,
+				A9CFAFD2229046D1001AF854 /* TesTravisTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +85,15 @@
 				A9CFAFC822903D63001AF854 /* Info.plist */,
 			);
 			path = TesTravis;
+			sourceTree = "<group>";
+		};
+		A9CFAFD3229046D1001AF854 /* TesTravisTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9CFAFD4229046D1001AF854 /* TesTravisTests.swift */,
+				A9CFAFD6229046D1001AF854 /* Info.plist */,
+			);
+			path = TesTravisTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +116,24 @@
 			productReference = A9CFAFB922903D62001AF854 /* TesTravis.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A9CFAFD1229046D1001AF854 /* TesTravisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9CFAFD9229046D1001AF854 /* Build configuration list for PBXNativeTarget "TesTravisTests" */;
+			buildPhases = (
+				A9CFAFCE229046D1001AF854 /* Sources */,
+				A9CFAFCF229046D1001AF854 /* Frameworks */,
+				A9CFAFD0229046D1001AF854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9CFAFD8229046D1001AF854 /* PBXTargetDependency */,
+			);
+			name = TesTravisTests;
+			productName = TesTravisTests;
+			productReference = A9CFAFD2229046D1001AF854 /* TesTravisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +146,10 @@
 				TargetAttributes = {
 					A9CFAFB822903D62001AF854 = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					A9CFAFD1229046D1001AF854 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A9CFAFB822903D62001AF854;
 					};
 				};
 			};
@@ -113,6 +167,7 @@
 			projectRoot = "";
 			targets = (
 				A9CFAFB822903D62001AF854 /* TesTravis */,
+				A9CFAFD1229046D1001AF854 /* TesTravisTests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +183,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A9CFAFD0229046D1001AF854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -140,7 +202,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A9CFAFCE229046D1001AF854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CFAFD5229046D1001AF854 /* TesTravisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9CFAFD8229046D1001AF854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9CFAFB822903D62001AF854 /* TesTravis */;
+			targetProxy = A9CFAFD7229046D1001AF854 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A9CFAFC022903D62001AF854 /* Main.storyboard */ = {
@@ -314,6 +392,46 @@
 			};
 			name = Release;
 		};
+		A9CFAFDA229046D1001AF854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99J6CKC79H;
+				INFOPLIST_FILE = TesTravisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilepowered.fr.TesTravisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TesTravis.app/TesTravis";
+			};
+			name = Debug;
+		};
+		A9CFAFDB229046D1001AF854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99J6CKC79H;
+				INFOPLIST_FILE = TesTravisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilepowered.fr.TesTravisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TesTravis.app/TesTravis";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -331,6 +449,15 @@
 			buildConfigurations = (
 				A9CFAFCC22903D63001AF854 /* Debug */,
 				A9CFAFCD22903D63001AF854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9CFAFD9229046D1001AF854 /* Build configuration list for PBXNativeTarget "TesTravisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CFAFDA229046D1001AF854 /* Debug */,
+				A9CFAFDB229046D1001AF854 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
