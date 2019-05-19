@@ -13,14 +13,21 @@ xcode_project: TesTravis.xcodeproj
 env:
   global:
   - |
-      - APP_NAME="TesTravis"
-      - 'DEVELOPER_NAME="iPhone Distribution: the digital cie (99J6CKC97H)"'
-      - PROFILE_NAME="TestTravisApp"
-      - IPA_NAME="TesTravis"
-      - ARCHIVE_NAME="TesTravis_Dev"
-  - secure: {azzdddfdsgnjkfgfjdkghfdgjk"'é'"éj('dfsdf('('"(,ngfgdfg}
-  - secure: {azzdddfdsgnjkfgfjdkghffgfgjk"'é'"éj('dfsdf('('"(,ngfgdfg}
-  - secure: {azzdddfdsgnjkfgfjsgfsgfdghgfghfdgjk"'é'"éj('dfsdf('('"(,ngfgdfg}
+    - APP_NAME="TesTravis"
+    - 'DEVELOPER_NAME="iPhone Distribution: the digital cie (99J6CKC97H)"'
+    - PROFILE_NAME="TestTravisApp"
+    - IPA_NAME="TesTravis"
+    - ARCHIVE_NAME="TesTravis_Dev"
+  - secure:
+      azzdddfdsgnjkfgfjdkghfdgjk"'é'"éj('dfsdf('('"(: 
+      ngfgdfg: 
+  - secure:
+      azzdddfdsgnjkfgfjdkghffgfgjk"'é'"éj('dfsdf('('"(: 
+      ngfgdfg: 
+  - secure:
+      azzdddfdsgnjkfgfjsgfsgfdghgfghfdgjk"'é'"éj('dfsdf('('"(: 
+      ngfgdfg: 
+  - secure: plzEmlkzu/qqUowoHSLMktNd/ZNw1HF9qykIq3SnqeZojYvkqHHScy/wbN9SnUxCNUataz0zK9HW1NYfPSOWfrCbSlghn9M+JKmJD6SErrY6x2+2NRBRHzJawng2C1SQNta30ZQRGp/Xj7ZY3HHzhVV9FOnHvaFSDM6/Wh5FPFXqQDiUeQxc6rdPSuNHwIjxHSj6bx6SsH6EJ/IvmKjsceaOH1rdryRw+qlKp8zJ3DK7+DMdikc9Nv6iZgfvt3lk0SywmOg2q1mP47Jot1+qsRMoP4jUrPZ67ncOZc6wqwXSD1aPHDrhVobaP4OSN1SCFDBlgXaNS9ZPRyDnfMTjsKJ9WbgReWUv0NEcsjBG7z8XetV9T3P9mrgltnAAIVHng5gwVabIQM2o4Uyl9Xa6KZaBOwE5kwsqK9fywByT6Pp7dxDFuj1jjzXGIeJolxPTHTzv3N2UY4StQnB4Vqz4CX9iZwTFFyR76pkrTtQK1BH0rGL7pnWb9/VwfkS5BHjTW/xau92BuD6qk5i5iC1eI1U8NsTCYDso5Z2A3kmOigdcdIKal+hjrGg8+1r4wY0fPJ6CT4HebLgpvTIpAACK8+ejt8S4z8/1XfNeqdui2U/SVTIFYpM3vlB2hNhcdxdd+zJDohwxgcbUM09AmOGhV4TvBTWz/HCSt8n985icoAY=
 xcode_scheme: TesTravis
 script:
 - "./scripts/build.sh"
