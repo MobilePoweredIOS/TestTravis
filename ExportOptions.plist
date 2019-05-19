@@ -14,12 +14,5 @@
 	<true/>
 	<key>signingStyle</key>
 	<string>manual</string>
-	<key>signingCertificate</key>
-	<string>iPhone Distribution: the digital cie</string>
-	<key>provisioningProfiles</key>
-	<dict>
-		<key>com.mobilepowered.fr.TesTravis</key>
-		<string>Distribution</string>
-	</dict>
 </dict>
 </plist>
