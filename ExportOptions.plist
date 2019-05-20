@@ -13,7 +13,7 @@
 	<key>uploadSymbols</key>
 	<true/>
 	<key>signingStyle</key>
-	<string>manual</string>
+	<string>automatic</string>
 	<key>signingCertificate</key>
 	<string>iPhone Distribution: the digital cie (99J6CKC97H)</string>
 </dict>
